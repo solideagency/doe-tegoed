@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { storyblokInit, apiPlugin } from "@storyblok/react";
-import Header from './Components/Header';
+import Header from './Components/Section';
 
 storyblokInit({
   accessToken: process.env.REACT_APP_TOKEN,

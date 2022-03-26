@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Header({blok}) {
+export default function Section({blok}) {
   return (
-    <header>
+    <section>
       <h1>{blok.body[0].Title}</h1>
       <h3>{blok.body[0].Subtitle}</h3>
-    </header>
+    </section>
   )
 }
